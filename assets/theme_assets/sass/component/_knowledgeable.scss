@@ -1,0 +1,52 @@
+
+/* inbox */
+.card-inbox {
+    .card-inbox-members {
+        ul {
+            li {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                &:not(:last-child) {
+                    margin-bottom: 15px;
+                }
+
+                .card-inbox-members__left {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        margin-right: 12px;
+                        width: 34px;
+                        height: 34px;
+                        border-radius: 4px;
+                    }
+
+                    .card-inbox-members__title {
+                        h6 {
+                            font-size: 15px;
+                            font-weight: 500;
+                            color: var(--color-gray);
+                        }
+
+                        .card-inbox-members__title--online {
+                            font-size: 13px;
+                            font-weight: 400;
+                            color: var(--color-gray);
+                            margin-top: 2px;
+                        }
+                    }
+                }
+
+                .card-inbox-member__time {
+                    span {
+                        font-size: 13px;
+                        font-weight: 400;
+                        color: var(--light-gray);
+                    }
+                }
+            }
+        }
+    }
+}

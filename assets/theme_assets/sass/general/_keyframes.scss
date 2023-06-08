@@ -1,0 +1,104 @@
+// Keyframs
+@keyframes spinMove {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(410deg);
+  }
+}
+
+@keyframes shimmerEffect {
+  0% {
+    background-position: -468px 0;
+  }
+
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+@keyframes antRadioEffect {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0.5;
+  }
+
+  100% {
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+@keyframes ring {
+  0% {
+    transform: rotate(-15deg);
+  }
+
+  2% {
+    transform: rotate(15deg);
+  }
+
+  4% {
+    transform: rotate(-18deg);
+  }
+
+  6% {
+    transform: rotate(18deg);
+  }
+
+  8% {
+    transform: rotate(-22deg);
+  }
+
+  10% {
+    transform: rotate(22deg);
+  }
+
+  12% {
+    transform: rotate(-18deg);
+  }
+
+  14% {
+    transform: rotate(18deg);
+  }
+
+  16% {
+    transform: rotate(-12deg);
+  }
+
+  18% {
+    transform: rotate(12deg);
+  }
+
+  20% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes stroke {
+  100% {
+      stroke-dashoffset: 0;
+  }
+}
+
+@keyframes scale {
+  0%, 100% {
+      transform: none;
+  }
+
+  50% {
+      transform: scale3d(1.1, 1.1, 1);
+  }
+}
+
+@keyframes fill {
+  100% {
+      box-shadow: inset 0px 0px 0px 30px var(--color-success);
+  }
+}

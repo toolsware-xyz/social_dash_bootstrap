@@ -1,0 +1,778 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>SocialDash</title>
+
+   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+   <!-- inject:css-->
+
+   <link rel="stylesheet" href="assets/vendor_assets/css/bootstrap/bootstrap.css">
+
+   <link rel="stylesheet" href="assets/vendor_assets/css/apexcharts.css">
+
+   <link rel="stylesheet" href="assets/vendor_assets/css/fontawesome.css">
+
+   <link rel="stylesheet" href="assets/vendor_assets/css/jquery-jvectormap-2.0.5.css">
+
+   <link rel="stylesheet" href="assets/vendor_assets/css/line-awesome.min.css">
+
+   <link rel="stylesheet" href="assets/vendor_assets/css/select2.min.css">
+
+   <link rel="stylesheet" href="style.css">
+
+   <!-- endinject -->
+
+   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
+
+   <!-- Fonts -->
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.0/css/line.css">
+
+</head>
+
+<body class="layout-light side-menu">
+   <div class="mobile-search">
+      <form action="/" class="search-form">
+         <img src="img/svg/search.svg" alt="search" class="svg">
+         <input class="form-control me-sm-2 box-shadow-none" type="search" placeholder="Search..." aria-label="Search">
+      </form>
+   </div>
+
+   <div class="mobile-author-actions"></div>
+
+
+   <header class="header-top">
+      <nav class="navbar navbar-light">
+         <div class="navbar-left">
+            <div class="logo-area">
+               <a class="navbar-brand" href="index.html">
+                  <img class="dark svg" src="img/svg/logo-dark.svg" alt="svg">
+               </a>
+            </div>
+            <a href="#" class="sidebar-toggle hamburger">
+               <span class="line"></span>
+               <span class="line"></span>
+               <span class="line"></span>
+            </a>
+            <form action="/" class="search-form-topMenu">
+               <input class="form-control me-sm-2 box-shadow-none" type="search" placeholder="Search..." aria-label="Search">
+               <span class="search-icon uil uil-search"></span>
+            </form>
+         </div>
+         <!-- ends: navbar-left -->
+
+         <div class="navbar-right">
+            <ul class="navbar-right__menu">
+               <li class="nav-search">
+                  <a href="#" class="search-toggle">
+                     <i class="uil uil-search"></i>
+                     <i class="uil uil-times"></i>
+                  </a>
+                  <form action="/" class="search-form-topMenu">
+                     <input class="form-control me-sm-2 box-shadow-none" type="search" placeholder="Search..." aria-label="Search">
+                     <span class="search-icon uil uil-search"></span>
+                  </form>
+               </li>
+               <li class="nav-message">
+                  <div class="dropdown-custom">
+                     <a href="javascript:;" class="nav-item-toggle icon-active">
+                        <img class="svg" src="img/svg/message.svg" alt="img">
+                     </a>
+                     <div class="dropdown-parent-wrapper">
+                        <div class="dropdown-wrapper">
+                           <h2 class="dropdown-wrapper__title">Messages <span class="badge-circle badge-success ms-1">2</span></h2>
+                           <ul>
+                              <li class="author-online has-new-message">
+                                 <div class="user-avater">
+                                    <img src="img/team-1.png" alt="">
+                                 </div>
+                                 <div class="user-message">
+                                    <p>
+                                       <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">Web Design</a>
+                                       <span class="time-posted">3 hrs ago</span>
+
+                                    </p>
+                                    <p>
+                                       <span class="desc text-truncate" style="max-width: 215px;">Lorem
+                                          ipsum
+                                          dolor amet cosec Lorem ipsum</span>
+                                       <span class="msg-count badge-circle badge-success badge-sm">1</span>
+                                    </p>
+                                 </div>
+                              </li>
+                              <li class="author-offline has-new-message">
+                                 <div class="user-avater">
+                                    <img src="img/team-1.png" alt="">
+                                 </div>
+                                 <div class="user-message">
+                                    <p>
+                                       <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">Web Design</a>
+                                       <span class="time-posted">3 hrs ago</span>
+                                    </p>
+                                    <p>
+                                       <span class="desc text-truncate" style="max-width: 215px;">Lorem
+                                          ipsum
+                                          dolor amet cosec Lorem ipsum</span>
+                                       <span class="msg-count badge-circle badge-success badge-sm">1</span>
+                                    </p>
+                                 </div>
+                              </li>
+                              <li class="author-online has-new-message">
+                                 <div class="user-avater">
+                                    <img src="img/team-1.png" alt="">
+                                 </div>
+                                 <div class="user-message">
+                                    <p>
+                                       <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">Web Design</a>
+                                       <span class="time-posted">3 hrs ago</span>
+                                    </p>
+                                    <p>
+                                       <span class="desc text-truncate" style="max-width: 215px;">Lorem
+                                          ipsum
+                                          dolor amet cosec Lorem ipsum</span>
+                                       <span class="msg-count badge-circle badge-success badge-sm">1</span>
+                                    </p>
+                                 </div>
+                              </li>
+                              <li class="author-offline">
+                                 <div class="user-avater">
+                                    <img src="img/team-1.png" alt="">
+                                 </div>
+                                 <div class="user-message">
+                                    <p>
+                                       <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">Web Design</a>
+                                       <span class="time-posted">3 hrs ago</span>
+                                    </p>
+                                    <p>
+                                       <span class="desc text-truncate" style="max-width: 215px;">Lorem
+                                          ipsum
+                                          dolor amet cosec Lorem ipsum</span>
+                                    </p>
+                                 </div>
+                              </li>
+                              <li class="author-offline">
+                                 <div class="user-avater">
+                                    <img src="img/team-1.png" alt="">
+                                 </div>
+                                 <div class="user-message">
+                                    <p>
+                                       <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">Web Design</a>
+                                       <span class="time-posted">3 hrs ago</span>
+                                    </p>
+                                    <p>
+                                       <span class="desc text-truncate" style="max-width: 215px;">Lorem
+                                          ipsum
+                                          dolor amet cosec Lorem ipsum</span>
+                                    </p>
+                                 </div>
+                              </li>
+                           </ul>
+                           <a href="" class="dropdown-wrapper__more">See All Message</a>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+               <!-- ends: nav-message -->
+               <li class="nav-notification">
+                  <div class="dropdown-custom">
+                     <a href="javascript:;" class="nav-item-toggle icon-active">
+                        <img class="svg" src="img/svg/alarm.svg" alt="img">
+                     </a>
+                     <div class="dropdown-parent-wrapper">
+                        <div class="dropdown-wrapper">
+                           <h2 class="dropdown-wrapper__title">Notifications <span class="badge-circle badge-warning ms-1">4</span></h2>
+                           <ul>
+                              <li class="nav-notification__single nav-notification__single--unread d-flex flex-wrap">
+                                 <div class="nav-notification__type nav-notification__type--primary">
+                                    <img class="svg" src="img/svg/inbox.svg" alt="inbox">
+                                 </div>
+                                 <div class="nav-notification__details">
+                                    <p>
+                                       <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">James</a>
+                                       <span>sent you a message</span>
+                                    </p>
+                                    <p>
+                                       <span class="time-posted">5 hours ago</span>
+                                    </p>
+                                 </div>
+                              </li>
+                              <li class="nav-notification__single nav-notification__single--unread d-flex flex-wrap">
+                                 <div class="nav-notification__type nav-notification__type--secondary">
+                                    <img class="svg" src="img/svg/upload.svg" alt="upload">
+                                 </div>
+                                 <div class="nav-notification__details">
+                                    <p>
+                                       <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">James</a>
+                                       <span>sent you a message</span>
+                                    </p>
+                                    <p>
+                                       <span class="time-posted">5 hours ago</span>
+                                    </p>
+                                 </div>
+                              </li>
+                              <li class="nav-notification__single nav-notification__single--unread d-flex flex-wrap">
+                                 <div class="nav-notification__type nav-notification__type--success">
+                                    <img class="svg" src="img/svg/log-in.svg" alt="log-in">
+                                 </div>
+                                 <div class="nav-notification__details">
+                                    <p>
+                                       <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">James</a>
+                                       <span>sent you a message</span>
+                                    </p>
+                                    <p>
+                                       <span class="time-posted">5 hours ago</span>
+                                    </p>
+                                 </div>
+                              </li>
+                              <li class="nav-notification__single nav-notification__single d-flex flex-wrap">
+                                 <div class="nav-notification__type nav-notification__type--info">
+                                    <img class="svg" src="img/svg/at-sign.svg" alt="at-sign">
+                                 </div>
+                                 <div class="nav-notification__details">
+                                    <p>
+                                       <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">James</a>
+                                       <span>sent you a message</span>
+                                    </p>
+                                    <p>
+                                       <span class="time-posted">5 hours ago</span>
+                                    </p>
+                                 </div>
+                              </li>
+                              <li class="nav-notification__single nav-notification__single d-flex flex-wrap">
+                                 <div class="nav-notification__type nav-notification__type--danger">
+                                    <img src="img/svg/heart.svg" alt="heart" class="svg">
+                                 </div>
+                                 <div class="nav-notification__details">
+                                    <p>
+                                       <a href="" class="subject stretched-link text-truncate" style="max-width: 180px;">James</a>
+                                       <span>sent you a message</span>
+                                    </p>
+                                    <p>
+                                       <span class="time-posted">5 hours ago</span>
+                                    </p>
+                                 </div>
+                              </li>
+                           </ul>
+                           <a href="" class="dropdown-wrapper__more">See all incoming activity</a>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+               <!-- ends: .nav-flag-select -->
+               <li class="nav-author">
+                  <div class="dropdown-custom">
+                     <a href="javascript:;" class="nav-item-toggle"><img src="img/author-nav.jpg" alt="" class="rounded-circle">
+                        <span class="nav-item__title">Md. Rony<i class="las la-angle-down nav-item__arrow"></i></span>
+                     </a>
+                     <div class="dropdown-parent-wrapper">
+                        <div class="dropdown-wrapper">
+                           <div class="nav-author__info">
+                              <div class="author-img">
+                                 <img src="img/author-nav.jpg" alt="" class="rounded-circle">
+                              </div>
+                              <div>
+                                 <h6>Md. Rony</h6>
+                                 <span>UI Designer</span>
+                              </div>
+                           </div>
+                           <div class="nav-author__options">
+                              <ul>
+                                 <li>
+                                    <a href="">
+                                       <i class="uil uil-user"></i> Profile</a>
+                                 </li>
+                                 <li>
+                                    <a href="">
+                                       <i class="uil uil-setting"></i>
+                                       Settings</a>
+                                 </li>
+                                 <li>
+                                    <a href="">
+                                       <i class="uil uil-key-skeleton"></i> Billing</a>
+                                 </li>
+                                 <li>
+                                    <a href="">
+                                       <i class="uil uil-users-alt"></i> Activity</a>
+                                 </li>
+                                 <li>
+                                    <a href="">
+                                       <i class="uil uil-bell"></i> Help</a>
+                                 </li>
+                              </ul>
+                              <a href="" class="nav-author__signout">
+                                 <i class="uil-sign-out-alt"></i> Sign Out</a>
+                           </div>
+                        </div>
+                        <!-- ends: .dropdown-wrapper -->
+                     </div>
+                  </div>
+               </li>
+               <!-- ends: .nav-author -->
+            </ul>
+            <!-- ends: .navbar-right__menu -->
+            <div class="navbar-right__mobileAction d-md-none">
+               <a href="#" class="btn-search">
+                  <img src="img/svg/search.svg" alt="search" class="svg feather-search">
+                  <img src="img/svg/x.svg" alt="x" class="svg feather-x"></a>
+               <a href="#" class="btn-author-action">
+                  <img class="svg" src="img/svg/more-vertical.svg" alt="more-vertical"></a>
+            </div>
+         </div>
+         <!-- ends: .navbar-right -->
+      </nav>
+   </header>
+   <main class="main-content">
+
+      <aside class="sidebar-wrapper">
+         <div class="sidebar sidebar-collapse" id="sidebar">
+            <div class="sidebar__menu-group">
+               <ul class="sidebar_nav">
+                  <li class="has-child">
+                     <a href="#" class="">
+                        <span class="nav-icon uil uil uil-home"></span>
+                        <span class="menu-text">Dashboard</span>
+                        <span class="toggle-icon"></span>
+                     </a>
+                     <ul>
+                        <li class="">
+                           <a href="index.html">Demo 1</a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="has-child">
+                     <a href="#">
+                        <span class="nav-icon uil uil-window-section"></span>
+                        <span class="menu-text">Layouts</span>
+                        <span class="toggle-icon"></span>
+                     </a>
+                     <ul>
+                        <li class="layout">
+                           <a href="../rtl">RTL</a>
+                        </li>
+                        <li class="layout">
+                           <a href="../ltr">LTR</a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="changelog.html" class="">
+                        <span class="nav-icon uil uil-arrow-growth"></span>
+                        <span class="menu-text">Changelog</span>
+                        <span class="badge badge-info-10 menuItem rounded-pill">1.0.0</span>
+                     </a>
+                  </li>
+                  <li class="menu-title mt-30">
+                     <span>Applications</span>
+                  </li>
+                  <li class="has-child">
+                     <a href="#" class="">
+                        <span class="nav-icon uil uil-bag"></span>
+                        <span class="menu-text text-initial">social app</span>
+                        <span class="toggle-icon"></span>
+                     </a>
+                     <ul>
+                        <li>
+                           <a href="profile.html" class="">my profile</a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="has-child">
+                     <a href="#" class="">
+                        <span class="nav-icon uil uil-table"></span>
+                        <span class="menu-text">Table</span>
+                        <span class="toggle-icon"></span>
+                     </a>
+                     <ul>
+                        <li>
+                           <a href="basic-table.html" class="">Basic
+                              Table</a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="menu-title mt-30">
+                     <span>Features</span>
+                  </li>
+                  <li class="has-child">
+                     <a href="#" class="">
+                        <span class="nav-icon uil uil-layers"></span>
+                        <span class="menu-text">UI Elements</span>
+                        <span class="toggle-icon"></span>
+                     </a>
+                     <ul>
+                        <li>
+                           <a class="" href="buttons.html">Button</a>
+                        </li>
+                        <li>
+                           <a class="" href="cards.html">Cards</a>
+                        </li>
+                        <li>
+                           <a class="" href="checkbox.html">Checkbox</a>
+                        </li>
+                        <li>
+                           <a class="" href="dropdown.html">Dropdown</a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="has-child">
+                     <a href="#" class="">
+                        <span class="nav-icon uil uil-chart"></span>
+                        <span class="menu-text">Charts</span>
+                        <span class="toggle-icon"></span>
+                     </a>
+                     <ul>
+                        <li>
+                           <a class="" href="charts.html">Chart JS</a>
+                        </li>
+                        <li>
+                           <a class="" href="apexchart.html">Apex JS</a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="menu-title mt-30">
+                     <span>Pages</span>
+                  </li>
+                  <li>
+                     <a href="pricing.html" class=" active">
+                        <span class="nav-icon uil uil-bill"></span>
+                        <span class="menu-text">Pricing</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="blank.html" class="">
+                        <span class="nav-icon uil uil-circle"></span>
+                        <span class="menu-text">Blank Page</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="coming-soon.html" class="">
+                        <span class="nav-icon uil uil-sync"></span>
+                        <span class="menu-text">Coming Soon</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="login.html" class="">
+                        <span class="nav-icon uil uil-signin"></span>
+                        <span class="menu-text">Log In</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="sign-up.html" class="">
+                        <span class="nav-icon uil uil-sign-out-alt"></span>
+                        <span class="menu-text">Sign Up</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </aside>
+
+
+      <div class="contents">
+
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-12">
+
+                  <div class="breadcrumb-main">
+                     <h4 class="text-capitalize breadcrumb-title">Pricing Table</h4>
+                     <div class="breadcrumb-action justify-content-center flex-wrap">
+                        <nav aria-label="breadcrumb">
+                           <ol class="breadcrumb">
+                              <li class="breadcrumb-item"><a href="#"><i class="uil uil-estate"></i>Home</a></li>
+                              <li class="breadcrumb-item active" aria-current="page">Pricing Table</li>
+                           </ol>
+                        </nav>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xxl-3 col-lg-4 col-sm-6 mb-30">
+                  <div class="card h-100">
+                     <div class="card-body p-30">
+                        <div class="pricing d-flex align-items-center">
+
+                           <span class=" pricing__tag color-dark order-bg-opacity-dark rounded-pill ">Free Forever</span>
+
+
+                        </div>
+                        <div class="pricing__price rounded">
+                           <p class="pricing_value display-3 color-dark d-flex align-items-center text-capitalize fw-600 mb-1">
+                              free
+                           </p>
+                           <p class="pricing_subtitle mb-0">For Individuals</p>
+                        </div>
+                        <div class="pricing__features">
+                           <ul>
+                              <li>
+                                 <span class="fa fa-check"></span>100MB file space
+                              </li>
+
+                              <li>
+                                 <span class="fa fa-check"></span>2 active projects
+                              </li>
+                              <li>
+                                 <span class="fa fa-check"></span>Limited boards
+                              </li>
+                              <li>
+                                 <span class="fa fa-check"></span>Basic project management
+                              </li>
+
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="price_action d-flex pb-30 ps-30">
+
+
+
+
+                        <button class="btn btn-default btn-squared color-light btn-outline-light text-capitalize px-30 color-gray fw-500">Current Plan
+                        </button>
+
+
+
+
+                     </div>
+                  </div><!-- End: .card -->
+               </div><!-- End: .col -->
+               <div class="col-xxl-3 col-lg-4 col-sm-6 mb-30">
+                  <div class="card h-100">
+                     <div class="card-body p-30">
+                        <div class="pricing d-flex align-items-center">
+
+                           <span class=" pricing__tag color-primary order-bg-opacity-primary rounded-pill ">Basic Plan</span>
+
+
+                        </div>
+                        <div class="pricing__price rounded">
+
+                           <p class="pricing_value display-3 color-dark d-flex align-items-center text-capitalize fw-600 mb-1">
+
+                              <sup>$</sup>19
+                              <small class="pricing_user">Per month</small>
+                           </p>
+                           <p class="pricing_subtitle mb-0">For 2 Users</p>
+
+                        </div>
+                        <div class="pricing__features">
+                           <ul>
+                              <li>
+                                 <span class="fa fa-check"></span>100GB file space
+                              </li>
+
+                              <li>
+                                 <span class="fa fa-check"></span>300 projects
+                              </li>
+                              <li>
+                                 <span class="fa fa-check"></span>Limited boards
+                              </li>
+                              <li>
+                                 <span class="fa fa-check"></span>Basic project management
+                              </li>
+                              <li>
+                                 <span class="fa fa-check"></span>Custom Post Types
+                              </li>
+
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="price_action d-flex pb-30 ps-30">
+
+
+
+                        <button class="btn btn-primary btn-default btn-squared text-capitalize px-30">Get Started
+                        </button>
+
+
+
+
+
+                     </div>
+                  </div><!-- End: .card -->
+               </div><!-- End: .col -->
+               <div class="col-xxl-3 col-lg-4 col-sm-6 mb-30">
+                  <div class="card h-100">
+                     <div class="card-body p-30">
+                        <div class="pricing d-flex align-items-center">
+
+                           <span class=" pricing__tag color-secondary order-bg-opacity-secondary rounded-pill ">Business</span>
+
+
+                        </div>
+                        <div class="pricing__price rounded">
+
+                           <p class="pricing_value display-3 color-dark d-flex align-items-center text-capitalize fw-600 mb-1">
+
+                              <sup>$</sup>39
+                              <small class="pricing_user">Per month</small>
+                           </p>
+                           <p class="pricing_subtitle mb-0">For 10 Users</p>
+
+                        </div>
+                        <div class="pricing__features">
+                           <ul>
+                              <li>
+                                 <span class="fa fa-check"></span>500GB+ file space
+                              </li>
+                              <li>
+                                 <span class="fa fa-check"></span>Unlimited projects
+                              </li>
+                              <li>
+                                 <span class="fa fa-check"></span>Unlimited boards
+                              </li>
+                              <li>
+                                 <span class="fa fa-check"></span>Basic project management
+                              </li>
+                              <li>
+                                 <span class="fa fa-check"></span>Custom Post Types
+                              </li>
+                              <li>
+                                 <span class="fa fa-check"></span>Subtasks
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="price_action d-flex pb-30 ps-30">
+
+
+
+                        <button class="btn btn-secondary btn-default btn-squared text-capitalize px-30">Get Started
+                        </button>
+
+
+
+
+
+                     </div>
+                  </div><!-- End: .card -->
+               </div><!-- End: .col -->
+               <div class="col-xxl-3 col-lg-4 col-sm-6 mb-30">
+                  <div class="card h-100">
+                     <div class="card-body p-30">
+                        <div class="pricing d-flex align-items-center">
+
+                           <span class=" pricing__tag color-success order-bg-opacity-success rounded-pill ">Enterprise</span>
+
+
+                        </div>
+                        <div class="pricing__price rounded">
+
+                           <p class="pricing_value display-3 color-dark d-flex align-items-center text-capitalize fw-600 mb-1">
+
+                              <sup>$</sup>79
+                              <small class="pricing_user">Per month</small>
+                           </p>
+                           <p class="pricing_subtitle mb-0">For 50 Users</p>
+
+                        </div>
+                        <div class="pricing__features">
+                           <ul>
+                              <li>
+                                 <span class="fa fa-check"></span>500GB+ file space
+                              </li>
+                              <li>
+                                 <span class="fa fa-check"></span>Unlimited projects
+                              </li>
+                              <li>
+                                 <span class="fa fa-check"></span>Unlimited boards
+                              </li>
+                              <li>
+                                 <span class="fa fa-check"></span>Basic project management
+                              </li>
+                              <li>
+                                 <span class="fa fa-check"></span>Custom Post Types
+                              </li>
+                              <li>
+                                 <span class="fa fa-check"></span>Subtasks
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="price_action d-flex pb-30 ps-30">
+
+
+
+                        <button class="btn btn-success btn-default btn-squared text-capitalize px-30">Get Started
+                        </button>
+
+
+
+
+
+                     </div>
+                  </div><!-- End: .card -->
+               </div><!-- End: .col -->
+            </div>
+         </div>
+
+      </div>
+      <footer class="footer-wrapper">
+         <div class="footer-wrapper__inside">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="footer-copyright">
+                        <p><span>@ 2022</span><a href="#">Sovware</a>
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="footer-menu text-end">
+                        <ul>
+                           <li>
+                              <a href="#">About</a>
+                           </li>
+                           <li>
+                              <a href="#">Team</a>
+                           </li>
+                           <li>
+                              <a href="#">Contact</a>
+                           </li>
+                        </ul>
+                     </div>
+                     <!-- ends: .Footer Menu -->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </main>
+   <div id="overlayer">
+      <div class="loader-overlay">
+         <div class="atbd-spin-dots spin-lg">
+            <span class="spin-dot badge-dot dot-primary"></span>
+            <span class="spin-dot badge-dot dot-primary"></span>
+            <span class="spin-dot badge-dot dot-primary"></span>
+            <span class="spin-dot badge-dot dot-primary"></span>
+         </div>
+      </div>
+   </div>
+   <div class="overlay-dark-sidebar"></div>
+   <div class="customizer-overlay"></div>
+
+   <!-- inject:js-->
+   <script src="assets/vendor_assets/js/jquery/jquery-3.5.1.min.js"></script>
+   <script src="assets/vendor_assets/js/jquery/jquery-ui.js"></script>
+   <script src="assets/vendor_assets/js/bootstrap/popper.js"></script>
+   <script src="assets/vendor_assets/js/bootstrap/bootstrap.min.js"></script>
+   <script src="assets/vendor_assets/js/moment/moment.min.js"></script>
+   <script src="assets/vendor_assets/js/apexcharts.min.js"></script>
+   <script src="assets/vendor_assets/js/Chart.min.js"></script>
+   <script src="assets/vendor_assets/js/jquery-jvectormap-2.0.5.min.js"></script>
+   <script src="assets/vendor_assets/js/jquery-jvectormap-world-mill-en.js"></script>
+   <script src="assets/vendor_assets/js/jquery.countdown.min.js"></script>
+   <script src="assets/vendor_assets/js/loader.js"></script>
+   <script src="assets/vendor_assets/js/select2.full.min.js"></script>
+   <script src="assets/theme_assets/js/apexcharts.cus.js"></script>
+   <script src="assets/theme_assets/js/charts.js"></script>
+   <script src="assets/theme_assets/js/jvectormap-init.js"></script>
+   <script src="assets/theme_assets/js/main.js"></script>
+   <!-- endinject-->
+</body>
+
+</html>

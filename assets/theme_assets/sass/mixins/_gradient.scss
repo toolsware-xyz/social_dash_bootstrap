@@ -1,0 +1,24 @@
+@mixin linear-gradient($from, $to) {
+  background: $from;
+  background: -moz-linear-gradient(to right, $from, $to);
+  background: -webkit-linear-gradient(to right, $from, $to);
+  background: -o-linear-gradient(to right, $from, $to);
+  background: linear-gradient(to right, $from, $to);
+}
+
+.gradient1 {
+  @include linear-gradient(var(--color-primary), var(--color-secondary));
+}
+.gradient2 {
+  @include linear-gradient(var(--color-primary), var(--color-warning));
+}
+.gradient3 {
+  @include linear-gradient(var(--color-info), var(--color-primary));
+}
+.gradient4 {
+  @include linear-gradient(var(--color-success), #62de04);
+}
+
+.gradientInstra {
+  @include linear-gradient(#ffc107, #9c27b0);
+}
